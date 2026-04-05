@@ -1,8 +1,6 @@
 <div align="center">
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Life%20Sync&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=One%20system.%20Every%20aspect%20of%20your%20life%20—%20connected.&descAlignY=60&descSize=18&descColor=cccccc" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=&colors[]=3d6b2e,7cc142,a8d870&height=200&section=header&text=Life%20Sync&fontSize=80&fontColor=eef6e4&animation=fadeIn&fontAlignY=38&desc=One%20system.%20Every%20aspect%20of%20your%20life%20—%20connected.&descAlignY=60&descSize=18&descColor=c8e8a0" width="100%"/>
 
 <br>
 
@@ -10,9 +8,9 @@
 
 <br>
 
-[![Status](https://img.shields.io/badge/Web%20App-30%25%20Complete-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/life-sync)
-[![Phase](https://img.shields.io/badge/Phase-1%20of%204-ec4899?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/life-sync)
-[![Foundation](https://img.shields.io/badge/Built%20on-Psychology%20%2B%20Engineering-0ea5e9?style=for-the-badge&logo=brain&logoColor=white)](https://github.com/life-sync)
+[![Status](https://img.shields.io/badge/Web%20App-30%25%20Complete-3d6b2e?style=for-the-badge&logoColor=eef6e4)](https://github.com/life-sync)
+[![Phase](https://img.shields.io/badge/Phase-1%20of%204-7cc142?style=for-the-badge&logoColor=eef6e4)](https://github.com/life-sync)
+[![Foundation](https://img.shields.io/badge/Built%20on-Psychology%20%2B%20Engineering-5a9e30?style=for-the-badge&logoColor=eef6e4)](https://github.com/life-sync)
 
 </div>
 
@@ -60,7 +58,7 @@ A unique *Dual-Progress System* that tracks both your **actual** progress and **
 **🔥 Habit Builder**
 Daily streaks, heatmap calendars, gamification, badge milestones. Build the behaviors that compound into the life you want.
 
-**🌊 Mood & Journal**
+**🌿 Mood & Journal**
 48 emotions mapped on an Energy × Valence axis. Write, reflect, and watch patterns emerge over time. Encrypted locally — always private.
 
 </td>
@@ -92,30 +90,40 @@ Context-aware reminders, psychologically-crafted phrase prompts for morning, foc
 
 <br>
 
-### `Phase 1` — Web Application
-**▓▓▓░░░░░░░  30% complete**
+### 🌱 `Phase 1` — Web Application
+
+<div align="center">
+
+![Progress](https://img.shields.io/badge/▓▓▓░░░░░░░-30%25%20complete-3d6b2e?style=for-the-badge)
+
+</div>
 
 > The foundation. A fast, responsive PWA that brings all core modules to life.
 
 | | |
 |---|---|
-| ✅ | Project architecture & database schema |
-| ✅ | Authentication system — email, OTP, SSO |
-| ✅ | Core UI layout, theme engine, onboarding |
-| ⬜ | Task & project management module |
-| ⬜ | Goal tracking with dual-progress engine |
-| ⬜ | Habit tracking, streaks & gamification |
-| ⬜ | Mood tracking & encrypted journaling |
-| ⬜ | Pomodoro timer suite |
-| ⬜ | Smart notifications & reminders |
-| ⬜ | Analytics dashboard & reports |
-| ⬜ | PWA setup & offline-first support |
-| ⬜ | Beta testing & MVP launch |
+| 🟢 | Project architecture & database schema |
+| 🟢 | Authentication system — email, OTP, SSO |
+| 🟢 | Core UI layout, theme engine, onboarding |
+| ⚪ | Task & project management module |
+| ⚪ | Goal tracking with dual-progress engine |
+| ⚪ | Habit tracking, streaks & gamification |
+| ⚪ | Mood tracking & encrypted journaling |
+| ⚪ | Pomodoro timer suite |
+| ⚪ | Smart notifications & reminders |
+| ⚪ | Analytics dashboard & reports |
+| ⚪ | PWA setup & offline-first support |
+| ⚪ | Beta testing & MVP launch |
 
 <br>
 
-### `Phase 2` — Mobile & Integrations
-**Planned**
+### 🌿 `Phase 2` — Mobile & Integrations
+
+<div align="center">
+
+![Planned](https://img.shields.io/badge/Status-Planned-7cc142?style=for-the-badge)
+
+</div>
 
 > Life Sync, wherever you are.
 
@@ -126,8 +134,13 @@ Context-aware reminders, psychologically-crafted phrase prompts for morning, foc
 
 <br>
 
-### `Phase 3` — Advanced Intelligence
-**Planned**
+### 🌳 `Phase 3` — Advanced Intelligence
+
+<div align="center">
+
+![Planned](https://img.shields.io/badge/Status-Planned-5a9e30?style=for-the-badge)
+
+</div>
 
 > Life Sync gets smarter, so you can focus on living.
 
@@ -139,20 +152,19 @@ Context-aware reminders, psychologically-crafted phrase prompts for morning, foc
 
 <br>
 
-### `Phase 4` — The Life Sync Device
-**The destination**
-
----
+### 🌲 `Phase 4` — The Life Sync Device
 
 <div align="center">
 
-<br>
-
-> *"What if the most powerful productivity tool wasn't on your phone?"*
+![Destination](https://img.shields.io/badge/The-Destination-3d6b2e?style=for-the-badge)
 
 <br>
+
+> *"What if the most powerful life tool wasn't on your phone?"*
 
 </div>
+
+<br>
 
 A physical companion — designed to sit on your desk, your nightstand, your kitchen counter — and surface exactly what you need, exactly when you need it. No notifications pulling you in. No feeds to scroll. No screen to get lost in.
 
@@ -203,15 +215,15 @@ Every feature in Life Sync is grounded in psychological research. Every module i
 
 **Built with**
 
-![Next.js](https://img.shields.io/badge/Next.js%2014-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js%2014-3d6b2e?style=for-the-badge&logo=next.js&logoColor=eef6e4)
+![TypeScript](https://img.shields.io/badge/TypeScript-5a9e30?style=for-the-badge&logo=typescript&logoColor=eef6e4)
+![Supabase](https://img.shields.io/badge/Supabase-7cc142?style=for-the-badge&logo=supabase&logoColor=eef6e4)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4a8028?style=for-the-badge&logo=postgresql&logoColor=eef6e4)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-a8d870?style=for-the-badge&logo=tailwindcss&logoColor=3d6b2e)
+![Vercel](https://img.shields.io/badge/Vercel-3d6b2e?style=for-the-badge&logo=vercel&logoColor=eef6e4)
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&colors[]=3d6b2e,7cc142&height=120&section=footer&reversal=true" width="100%"/>
 
 </div>
