@@ -1,105 +1,217 @@
-# Life Sync
+<div align="center">
 
-**One system. Every aspect of your life — connected.**
+<br>
 
-Life Sync is a comprehensive personal development platform built on scientific psychological principles. Instead of juggling five different apps, you get one integrated system where your tasks, goals, habits, mood, and focus all talk to each other — giving you a living snapshot of your life and helping you move forward with clarity.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Life%20Sync&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=One%20system.%20Every%20aspect%20of%20your%20life%20—%20connected.&descAlignY=60&descSize=18&descColor=cccccc" width="100%"/>
+
+<br>
+
+### *What if your tools understood your life, not just your to-do list?*
+
+<br>
+
+[![Status](https://img.shields.io/badge/Web%20App-30%25%20Complete-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/life-sync)
+[![Phase](https://img.shields.io/badge/Phase-1%20of%204-ec4899?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/life-sync)
+[![Foundation](https://img.shields.io/badge/Built%20on-Psychology%20%2B%20Engineering-0ea5e9?style=for-the-badge&logo=brain&logoColor=white)](https://github.com/life-sync)
+
+</div>
+
+---
+
+<br>
+
+## The Problem
+
+Every day, people switch between 5, 6, 7 different apps to manage their lives.
+Notion for notes. Todoist for tasks. Habitica for habits. Daylio for mood. A calendar. A timer. A journal.
+
+None of them talk to each other.
+None of them see the full picture.
+None of them understand *you*.
+
+**Life Sync changes that.**
+
+<br>
+
+## What Life Sync Is
+
+A single, deeply integrated platform where every module is aware of every other. Your habits feed your goals. Your mood shapes your insights. Your focus sessions log back to your tasks. And all of it comes together in a dashboard that gives you a **living snapshot of your life** — not just your productivity, but your *wellbeing*.
+
+Built on scientific psychological principles. Designed to feel like it was made for you.
+
+<br>
 
 ---
 
-## What We're Building
+<br>
 
-| Module | Description |
-|--------|-------------|
-| **Task & Project Management** | Prioritized tasks, subtasks, kanban boards, team collaboration |
-| **Goal Tracking** | Dual-progress system — tracks *actual* vs. *expected* progress with predictions |
-| **Habit Builder** | Streaks, heatmap calendar, gamification, badge milestones |
-| **Mood & Journal** | 48-emotion system mapped on Energy × Valence axes, encrypted locally |
-| **Focus Timer** | Pomodoro suite with ambient sounds, templates, and task-linked time logging |
-| **Smart Calendar** | Fully internal, drag-drop scheduling, time blocking, auto-sync with tasks |
-| **Analytics Dashboard** | Productivity score, goal progress charts, weekly/monthly insights |
-| **Smart Notifications** | Context-aware reminders, psychological phrase prompts, celebration alerts |
+## Core Modules
 
-Everything is interconnected — completing a habit automatically updates your goal progress. Your mood trends surface in your weekly report. Your focus sessions link back to your tasks.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**📋 Tasks & Projects**
+Prioritized tasks, subtasks, kanban boards, recurring schedules, and real team collaboration — all in one place.
+
+**🎯 Goal Tracking**
+A unique *Dual-Progress System* that tracks both your **actual** progress and **expected** progress — so you always know if you're on pace, ahead, or falling behind.
+
+**🔥 Habit Builder**
+Daily streaks, heatmap calendars, gamification, badge milestones. Build the behaviors that compound into the life you want.
+
+**🌊 Mood & Journal**
+48 emotions mapped on an Energy × Valence axis. Write, reflect, and watch patterns emerge over time. Encrypted locally — always private.
+
+</td>
+<td width="50%" valign="top">
+
+**⏱️ Focus Timer**
+A full Pomodoro suite with ambient soundscapes, custom templates (Study, Deep Work, Light), and time automatically logged to your tasks.
+
+**📅 Smart Calendar**
+Fully internal. No Google Calendar dependency. Drag-drop events, time-blocking, auto-sync with tasks and habits.
+
+**📊 Analytics Dashboard**
+Productivity score, goal progress charts, habit completion rates, mood trends, weekly and monthly reports — with AI-powered insights.
+
+**🔔 Smart Notifications**
+Context-aware reminders, psychologically-crafted phrase prompts for morning, focus, and wind-down, and celebration alerts when you hit milestones.
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ---
+
+<br>
 
 ## Roadmap
 
-### Phase 1 — Web Application
-> **Status: 30% complete**
+<br>
 
-The foundation of Life Sync. A fast, responsive PWA built with Next.js, Supabase, and shadcn/ui.
+### `Phase 1` — Web Application
+**▓▓▓░░░░░░░  30% complete**
 
-- [x] Project architecture & database schema
-- [x] Authentication system (email, SSO)
-- [x] Core UI layout and theme system
-- [ ] Task & project management module
-- [ ] Goal tracking with dual-progress engine
-- [ ] Habit tracking & gamification
-- [ ] Mood tracking & journaling
-- [ ] Pomodoro timer suite
-- [ ] Smart notifications
-- [ ] Analytics dashboard & reports
-- [ ] PWA setup & offline support
-- [ ] Beta testing & MVP launch
+> The foundation. A fast, responsive PWA that brings all core modules to life.
 
----
+| | |
+|---|---|
+| ✅ | Project architecture & database schema |
+| ✅ | Authentication system — email, OTP, SSO |
+| ✅ | Core UI layout, theme engine, onboarding |
+| ⬜ | Task & project management module |
+| ⬜ | Goal tracking with dual-progress engine |
+| ⬜ | Habit tracking, streaks & gamification |
+| ⬜ | Mood tracking & encrypted journaling |
+| ⬜ | Pomodoro timer suite |
+| ⬜ | Smart notifications & reminders |
+| ⬜ | Analytics dashboard & reports |
+| ⬜ | PWA setup & offline-first support |
+| ⬜ | Beta testing & MVP launch |
 
-### Phase 2 — Mobile & Integrations
-> **Planned**
+<br>
 
-Taking Life Sync where you are.
+### `Phase 2` — Mobile & Integrations
+**Planned**
 
-- Native mobile apps (iOS & Android)
-- Telegram bot for quick task logging and daily check-ins
+> Life Sync, wherever you are.
+
+- Native iOS & Android apps
+- Telegram bot — log tasks, check habits, get daily reports without opening the app
 - Desktop app with keyboard shortcuts and background sync
-- CalDAV sync and imports from Notion, Todoist, and more
+- Import from Notion, Todoist, and more — bring your existing data with you
+
+<br>
+
+### `Phase 3` — Advanced Intelligence
+**Planned**
+
+> Life Sync gets smarter, so you can focus on living.
+
+- AI-powered daily planning and goal breakdown suggestions
+- Sleep cycle analysis and smart alarms
+- Health & wellness modules — water, workouts, meditation
+- Personal finance tracking and budget-linked goals
+- Social accountability — shared challenges, leaderboards, accountability partners
+
+<br>
+
+### `Phase 4` — The Life Sync Device
+**The destination**
 
 ---
 
-### Phase 3 — Advanced Intelligence
-> **Planned**
+<div align="center">
 
-Making Life Sync proactively helpful.
+<br>
 
-- AI-powered daily planning and goal breakdown
-- Sleep cycle tracking and smart alarms
-- Health & wellness modules (water, workouts, meditation)
-- Personal finance tracking and budget goals
-- Social accountability — shared challenges, leaderboards
+> *"What if the most powerful productivity tool wasn't on your phone?"*
+
+<br>
+
+</div>
+
+A physical companion — designed to sit on your desk, your nightstand, your kitchen counter — and surface exactly what you need, exactly when you need it. No notifications pulling you in. No feeds to scroll. No screen to get lost in.
+
+Just:
+- Your top priorities for the day, at a glance
+- A soft signal when it's time to focus — or time to rest
+- Your mood check-in, waiting quietly each evening
+- A morning summary and an evening wind-down, on your terms
+
+The Life Sync Device pairs with your platform, updates over the air, and is built to **disappear into your life** rather than compete for your attention.
+
+> This is where every line of code we write converges — into something you can touch, place in your space, and trust to have your back. Hardware selection and firmware development are in early planning.
+
+<br>
 
 ---
 
-### Phase 4 — The Life Sync Device
-> **The destination**
-
-A physical companion device designed for one purpose: **helping you live better without interruptions.**
-
-The Life Sync Device sits in your space — on your desk, your nightstand, wherever you need it — and delivers what matters right now, without pulling you into a screen. Gentle glanceable reminders. Focus mode signals. Morning summaries. Evening wind-downs. No notifications. No distractions. Just the right information at the right moment.
-
-The device pairs seamlessly with the Life Sync platform, stays in sync over the air, and is designed to disappear into your life rather than compete for your attention.
-
-> Hardware selection, firmware, and prototyping are in early planning. This is where everything we build in software converges into something physical and purposeful.
-
----
+<br>
 
 ## The Vision
 
-Most productivity tools are just tools. Life Sync is different — every feature is grounded in psychological research, every module connects to every other, and the end goal isn't just productivity. It's helping people understand themselves, build better habits, and live with intention.
+<div align="center">
 
-From the web app to the device, every step we take is toward one thing: **a system that quietly works alongside your life, not against it.**
+*Most tools optimize your output.*
+*Life Sync optimizes your life.*
+
+</div>
+
+<br>
+
+We believe the next generation of personal development tools won't just help you do more — they'll help you understand yourself, build the habits that actually stick, and move through your days with intention rather than reaction.
+
+Every feature in Life Sync is grounded in psychological research. Every module is aware of every other. And every phase of this roadmap — from the first task you log in the web app, to the soft glow of the device on your nightstand — is a step toward one thing:
+
+<div align="center">
+
+### **A system that quietly works alongside your life, not against it.**
+
+</div>
+
+<br>
 
 ---
 
-## Built With
+<br>
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+<div align="center">
 
----
+**Built with**
 
-<sub>Life Sync is a research-backed project developed at the intersection of psychology and software engineering.</sub>
+![Next.js](https://img.shields.io/badge/Next.js%2014-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+
+</div>
